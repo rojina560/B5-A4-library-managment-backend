@@ -26,7 +26,7 @@ app.use("/api/borrow", borrowRoutes);
 
 // common route
 app.get("/", (req: Request, res: Response) => {
-  res.send("Welcome To Library Application");
+  res.send("Welcome To Library Managment Application");
 });
 
 // not found route error handler
