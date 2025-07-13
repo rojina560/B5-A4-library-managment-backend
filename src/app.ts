@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173"
-      // "https://b5-a4-frontend-sazid.vercel.app"
+      "http://localhost:5173",
+      "https://b5-a4-frontend.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: false,
